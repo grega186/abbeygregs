@@ -1,0 +1,109 @@
+body{
+ background-image:img src= "images/clouds.gif"; 
+}
+#name{
+  position:absolute;
+  z-index: 2;
+  top: -100px;
+  left: 8px;
+}
+#name2{
+  position:absolute;
+  z-index: 2;
+  top:820px;
+  left:8px;
+}
+#name3{
+  position:absolute;
+  z-index: 2;
+  top:1740px;
+  left: 8px;
+}
+#name4{
+  position:absolute;
+  z-index: 2;
+  top:2660px;
+  left: 8px;
+}
+#top{
+  position: relative;
+  float: left;
+  width: 100%;
+  left:;
+  top:-1vh;
+  background-color:;
+  height: 420vh;
+  z-index: 1;
+}
+#first1{
+  position: relative;
+  float: left;
+  width: 50%;
+  left:0px;
+  top:-1vh;
+  background-color:#C5D7D8;
+  height: 50vh;
+  z-index: 3;
+}
+#first2{
+  position: relative;
+  float: left;
+  width: 50%;
+  left:;
+  background-color:#a8a860;
+  height: 50vh;
+  z-index: 3;
+  top:-1vh;
+}
+#first3{
+  position: relative;
+  float: left;
+  width: 50%;
+  left:;
+  background-color: #a8c0c0;
+  height: 50vh;
+  z-index: 3;
+  top: -1vh;
+}
+#first4{
+  position: relative;
+  float: left;
+  width: 50%;
+  left:;
+  background-color: #a8a878;
+  height: 50vh;
+  z-index: 3;
+  top:-1vh;
+}
+#cwweek1{
+  position:absolute;
+  z-index: 4;
+  top: 3050px;
+  left: 265px;
+}
+#hwweek1{
+  position:absolute;
+  z-index: 4;
+  top: 3050px;
+  left: 1000px;
+}
+#cwweek2{
+  position:absolute;
+  z-index: 4;
+  top: 3400px;
+  left: 1000px;
+}
+#hwweek2{
+  position:absolute;
+  z-index: 4;
+  top: 3350px;
+  left: 220px;
+}
+#hw2week2{
+  position:absolute;
+  z-index: 4;
+  top: 3450px;
+  left: 220px;
+}
+
+
