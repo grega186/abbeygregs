@@ -1,109 +1,118 @@
-body{
- background-image:img src= "images/clouds.gif"; 
+body {
+  background-color: black;
 }
-#name{
-  position:absolute;
+a {
+  color: white;
+}
+#name {
+  position: absolute;
+  color: white;
+  width: 300px;
+  height: 300px;
+  font-family: "Megrim", cursive;
+  font-size: 100pt;
+  z-index: 7;
+  top: -70px;
+}
+#list1 {
+  position: absolute;
+  font-family: "Courier Prime", monospace;
+  font-size: 12pt;
+  height: 500px;
+  width: 300px;
+  top: 70px;
+  left: 560px;
+  color: white;
+}
+#lily {
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  left: 200px;
+  top: 550px;
   z-index: 2;
-  top: -100px;
-  left: 8px;
 }
-#name2{
-  position:absolute;
+#dahlia {
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  left: 900px;
+  top: 450px;
+  z-index: 5;
+}
+#orchid {
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  left: 100px;
+  top: 450px;
+  z-index: 6;
+}
+#pansy {
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  left: 300px;
+  top: 400px;
+  z-index: 5;
+}
+#peony {
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  left: 1000px;
+  top: 550px;
+  z-index: 3;
+}
+#sunflower {
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  left: 1100px;
+  top: 400px;
   z-index: 2;
-  top:820px;
-  left:8px;
 }
-#name3{
-  position:absolute;
-  z-index: 2;
-  top:1740px;
-  left: 8px;
-}
-#name4{
-  position:absolute;
-  z-index: 2;
-  top:2660px;
-  left: 8px;
-}
-#top{
-  position: relative;
-  float: left;
-  width: 100%;
-  left:;
-  top:-1vh;
-  background-color:;
-  height: 420vh;
+#darkred {
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  left: 1170px;
+  top: 550px;
   z-index: 1;
 }
-#first1{
-  position: relative;
-  float: left;
-  width: 50%;
-  left:0px;
-  top:-1vh;
-  background-color:#C5D7D8;
-  height: 50vh;
-  z-index: 3;
+#rose {
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  left: 5px;
+  top: 550px;
+  z-index: 1;
 }
-#first2{
-  position: relative;
-  float: left;
-  width: 50%;
-  left:;
-  background-color:#a8a860;
-  height: 50vh;
-  z-index: 3;
-  top:-1vh;
+#petunia {
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  left: 400px;
+  top: 550px;
+  z-index: 1;
 }
-#first3{
-  position: relative;
-  float: left;
-  width: 50%;
-  left:;
-  background-color: #a8c0c0;
-  height: 50vh;
-  z-index: 3;
-  top: -1vh;
+#blue {
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  left: 770px;
+  top: 550px;
+  z-index: 1;
 }
-#first4{
-  position: relative;
-  float: left;
-  width: 50%;
-  left:;
-  background-color: #a8a878;
-  height: 50vh;
-  z-index: 3;
-  top:-1vh;
-}
-#cwweek1{
-  position:absolute;
+#daisy {
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  left: 580px;
+  top: 550px;
   z-index: 4;
-  top: 3050px;
-  left: 265px;
 }
-#hwweek1{
-  position:absolute;
-  z-index: 4;
-  top: 3050px;
-  left: 1000px;
+#grass {
+  position: absolute;
+  top: 500px;
 }
-#cwweek2{
-  position:absolute;
-  z-index: 4;
-  top: 3400px;
-  left: 1000px;
-}
-#hwweek2{
-  position:absolute;
-  z-index: 4;
-  top: 3350px;
-  left: 220px;
-}
-#hw2week2{
-  position:absolute;
-  z-index: 4;
-  top: 3450px;
-  left: 220px;
-}
-
-
