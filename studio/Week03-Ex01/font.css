@@ -1,0 +1,14 @@
+body {
+  background-color: #d4ecff;
+}
+p {
+  color: #024414;
+  font-family: "Indie Flower", cursive;
+}
+#left {
+  float: left;
+}
+#right {
+  float: right;
+  text-align: right;
+}
