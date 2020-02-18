@@ -1,0 +1,13 @@
+body {
+  background-color: #d4ecff;
+}
+p {
+  color: #024414;
+}
+#left {
+  float: left;
+}
+#right {
+  float: right;
+  text-align: right;
+}
