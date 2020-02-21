@@ -22,3 +22,19 @@
   opacity: 0.3;
   border: orange solid 5px;
 }
+#circle {
+  background-color: lightblue;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  animation: bounce 1s infinite alternate-reverse ease-in-out;
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-200px);
+  }
+}
