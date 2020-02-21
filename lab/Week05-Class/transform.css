@@ -2,8 +2,9 @@
   width: 100%;
   height: 100vh;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  flex-direction: row;
 }
 #box {
   width: 200px;
@@ -11,8 +12,10 @@
   background-color: black;
   scale: (0.5);
   opacity: 1;
+  transition: 3s ease-in-out;
+  border: yellow solid 5px;
 }
-#box:hover {
+#container:hover #box {
   transform: rotate(360deg) scale(3);
   transition: all 3s ease-in-out 1s;
   background-color: red;
