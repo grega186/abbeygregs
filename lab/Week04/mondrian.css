@@ -1,0 +1,63 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+p,
+pre,
+blockquote,
+figure,
+hr {
+  margin: 0;
+  padding: 0;
+}
+#first {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  float: left;
+}
+#second {
+  position: relative;
+  width: 250px;
+  height: 200px;
+  background-color: grey;
+  float: left;
+}
+#fix {
+  position: relative;
+  width: 60%;
+  height: 200px;
+  float: left;
+}
+#third {
+  position: relative;
+  float: left;
+  height: 100px;
+  width: 200px;
+  background-color: grey;
+}
+#fourth {
+  position: relative;
+  float: left;
+  height: 100px;
+  width: 250px;
+  background-color: yellow;
+}
+#fix2 {
+  position: relative;
+  width: 60%;
+  height: 200px;
+  float: left;
+}
+#fifth {
+  width: 30px;
+  position: relative;
+  float: left;
+}

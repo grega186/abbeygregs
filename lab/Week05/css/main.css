@@ -1,0 +1,67 @@
+body {
+  font-family: "EB Garamond";
+  text-align: center;
+}
+a {
+  font-size: 20pt;
+  text-align: center;
+  font-family: "Poiret One";
+  color: black;
+}
+#background {
+  display: flex;
+  align-items: flex-start;
+  height: 100vh;
+  width: 100%;
+  opacity: 0.1;
+}
+.parent {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  background-image: url("example_img_girl.jpg");
+  background-repeat: no-repeat;
+}
+.div1 {
+  grid-area: 1 / 1 / 3 / 13;
+  text-align: center;
+  font-weight: bold;
+  font-size: 70px;
+}
+.div2 {
+  grid-area: 2 / 3 / 4 / 6;
+  font-size: 20px;
+  font-weight: bold;
+  align-content: center;
+}
+.div3 {
+  grid-area: 4 / 3 / 13 / 6;
+}
+.div4 {
+  grid-area: 2 / 7 / 4 / 10;
+  font-size: 20px;
+  font-weight: bold;
+}
+.div5 {
+  grid-area: 4 / 7 / 13 / 10;
+}
+.div6 {
+  grid-area: 2 / 11 / 6 / 13;
+  text-align: left;
+}
+.div7 {
+  grid-area: 4 / 11 / 9 / 13;
+  text-align: left;
+}
+.div8 {
+  grid-area: 6 / 11 / 12 / 13;
+}
+.div9 {
+  font-family: "Poiret One";
+  grid-area: 2 / 1 / 13 / 2;
+  font-size: 12pt;
+  left: 30px;
+  text-align: right;
+}
