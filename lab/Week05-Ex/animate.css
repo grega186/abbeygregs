@@ -1,0 +1,42 @@
+#container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  background-color: lightgoldenrodyellow;
+}
+#box {
+  width: 400px;
+  height: 400px;
+  background-color: orangered;
+  scale: (0.5);
+  opacity: 1;
+  transition: 1s ease-in-out;
+  border: orange solid 5px;
+}
+#container:hover #box {
+  transform: rotate(360deg) scale(1.5);
+  transition: all 3s ease-in-out 1s;
+  background-color: yellow;
+  opacity: 0.5;
+  border: yellowgreen solid 5px;
+}
+#circle {
+  background-color: lightblue;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  animation: slidein 1s infinite alternate-reverse ease-in-out;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
