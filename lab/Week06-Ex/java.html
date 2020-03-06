@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Button Starter Code</title>
+    <style>
+      /* you can write styles for the button! Try your own */
+
+      button {
+        position: absolute;
+        z-index: 2;
+        left: 45%;
+        top: 50vh;
+        padding: 5px;
+        font-size: 16px;
+        font-family: monospace;
+        text-transform: uppercase;
+        background-color: transparent;
+      }
+      button:hover {
+        cursor: pointer;
+        background-color: #333;
+        color: #fff;
+      }
+      #change {
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        height: 100vh;
+        background-color: #006466;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- html content here -->
+    <div id="change"></div>
+
+    <div class="button-container">
+      <button id="button">Change Color!</button>
+    </div>
+
+    <!-- script tag at the end of the body -->
+    <script>
+      window.onload = function() {
+        var replace = document.getElementById("change");
+
+        var colors = [
+          "#A09EEF",
+          "#24218E",
+          "#D4E6FF",
+          "#C659D1",
+          "#FFA1E9",
+          "#F1FFA1",
+          "#FFF648",
+          "#FFC648",
+          "#FF8533",
+          "#FF3D10",
+          "#66C49B",
+          "#295E2B",
+          "#91CE7A",
+          "#24BA40",
+          "#95E03F",
+          "#FFF764",
+          "#5089EF",
+          "#4A049B",
+          "#6B477F"
+        ];
+
+        // select_random is a function that returns a random item from an array.
+        // x, in the parentheses, is called a parameter. It's like a variable that only exists in the scope of one function.
+        // When we run this function later on, we'll replace x with the name of the array that we want to select from.
+        function select_random(x) {
+          y = x[Math.floor(Math.random() * colors.length)];
+          return y;
+        }
+
+        // this is a function called generate.
+        function generate() {
+          // the first generate it does is create four variables. Each variable is assigned a value. The value is the random item from each array.
+          var selected_one = select_random(colors);
+
+          // Now, take the random item from the array, and change the HTML content of each item to that value.
+          replace.style.background = selected_one;
+        }
+
+        // When you click the 'button', run the 'generate' function. This will change the content of the page.
+        document.getElementById("button").onclick = function() {
+          // also, tell us that we're clicking, so we can make sure this works!
+          console.log("this function runs every time you click the button");
+          generate();
+        };
+
+        // This is necessary so that when the page loads, it automatically runs generate.
+        generate();
+      };
+    </script>
+  </body>
+</html>
