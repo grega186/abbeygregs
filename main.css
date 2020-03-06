@@ -1,0 +1,138 @@
+body {
+  background-color: black;
+}
+a {
+  color: white;
+}
+#name {
+  position: absolute;
+  color: white;
+  width: 300px;
+  height: 300px;
+  font-family: "Megrim", cursive;
+  font-size: 100pt;
+  z-index: 7;
+  top: -70px;
+}
+#list1 {
+  position: absolute;
+  font-family: "Courier Prime", monospace;
+  font-size: 12pt;
+  height: 500px;
+  width: 300px;
+  top: 70px;
+  left: 560px;
+  color: white;
+}
+#list2 {
+  position: absolute;
+  font-family: "Courier Prime", monospace;
+  font-size: 12pt;
+  height: 500px;
+  width: 300px;
+  top: 130px;
+  left: 860px;
+  color: white;
+}
+#project1 {
+  position: absolute;
+  font-family: "Courier Prime", monospace;
+  height: 500px;
+  width: 300px;
+  top: 62px;
+  left: 900px;
+  color: white;
+  z-index: 10;
+}
+#lily {
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  left: 200px;
+  top: 550px;
+  z-index: 2;
+}
+#dahlia {
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  left: 900px;
+  top: 450px;
+  z-index: 5;
+}
+#orchid {
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  left: 100px;
+  top: 450px;
+  z-index: 6;
+}
+#pansy {
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  left: 300px;
+  top: 400px;
+  z-index: 5;
+}
+#peony {
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  left: 1000px;
+  top: 550px;
+  z-index: 3;
+}
+#sunflower {
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  left: 1100px;
+  top: 400px;
+  z-index: 2;
+}
+#darkred {
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  left: 1170px;
+  top: 550px;
+  z-index: 1;
+}
+#rose {
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  left: 5px;
+  top: 550px;
+  z-index: 1;
+}
+#petunia {
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  left: 400px;
+  top: 550px;
+  z-index: 1;
+}
+#blue {
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  left: 770px;
+  top: 550px;
+  z-index: 1;
+}
+#daisy {
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  left: 580px;
+  top: 550px;
+  z-index: 4;
+}
+#grass {
+  position: absolute;
+  top: 500px;
+}
