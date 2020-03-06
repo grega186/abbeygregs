@@ -1,0 +1,97 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+p,
+pre,
+blockquote,
+figure,
+hr {
+  margin: 0;
+  padding: 0;
+}
+#hats {
+  position: absolute;
+  left: 10%;
+  width: 150px;
+  height: 200px;
+}
+#necklaces {
+  position: absolute;
+  left: 80%;
+  width: 200px;
+  height: 200px;
+}
+#tops {
+  position: absolute;
+  width: 220px;
+  height: 200px;
+  left: 38%;
+}
+#sweaters {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left: 55%;
+}
+#jackets {
+  position: absolute;
+  height: 250px;
+  width: 300px;
+  left: 20%;
+}
+#dresses {
+  position: absolute;
+  height: 500px;
+  width: 300px;
+  left: 13%;
+  top: 40vh;
+}
+#pants {
+  position: absolute;
+  height: 500px;
+  width: 250px;
+  top: 45vh;
+  left: 38%;
+}
+#skirts {
+  position: absolute;
+  height: 250px;
+  width: 300px;
+  top: 48vh;
+  left: 60%;
+}
+#bags {
+  position: absolute;
+  height: 400px;
+  width: 200px;
+  top: 30vh;
+  left: 82%;
+}
+#shoes {
+  position: absolute;
+  height: 300px;
+  width: 270px;
+  top: 80vh;
+  left: 60%;
+}
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+.images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+img {
+  padding: 20px;
+}
