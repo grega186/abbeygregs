@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Small Convo</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      .textlocation {
+        width: 50%;
+        color: black;
+        font-size: 30px;
+        font-family: "Raleway", sans-serif;
+      }
+
+      button {
+        display: block;
+        position: fixed;
+
+        bottom: 20%;
+        left: 80%;
+        color: black;
+        background-color: lavender;
+        cursor: pointer;
+        font-family: "Raleway", sans-serif;
+        font-size: 20px;
+      }
+    </style>
+
+    <!--   jquery hosted library   -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="textlocation"></div>
+
+    <button>
+      what's that now?
+    </button>
+
+    <script>
+      var options = [
+        "hi",
+        "how you doing?",
+        "class from home huh?",
+        "pretty crazy"
+      ];
+
+      var text = $(".textlocation");
+
+      function select_random(x) {
+        y = x[Math.floor(Math.random() * x.length)];
+        return y;
+      }
+
+      function display_text() {
+        selected_text = select_random(options);
+        $(".textlocation").attr("src", selected_text);
+      }
+
+      $(document).ready(function() {
+        display_text();
+        $("button").click(function() {
+          display_text();
+        });
+      });
+    </script>
+  </body>
+</html>
