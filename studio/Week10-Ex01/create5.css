@@ -1,0 +1,389 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+p,
+pre,
+blockquote,
+figure,
+hr {
+  margin: 0;
+  padding: 0;
+}
+#title {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  font-family: "Spicy Rice", cursive;
+  font-size: 40pt;
+  text-align: center;
+  line-height: 1em;
+  background: -webkit-linear-gradient(
+    180deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  left: 84%;
+  top: 12vh;
+}
+#purpleflower {
+  position: absolute;
+  left: 84%;
+  top: 24vh;
+}
+#redflower {
+  position: absolute;
+  left: 84%;
+  top: 47vh;
+}
+#orangeflower {
+  position: absolute;
+  left: 84%;
+  top: 70vh;
+}
+#purpletext {
+  position: absolute;
+  left: 88.6%;
+  top: 33vh;
+  font-family: "Spicy Rice", cursive;
+  color: white;
+  text-align: center;
+  line-height: 1.2em;
+}
+#redtext {
+  position: absolute;
+  left: 88.5%;
+  top: 54.5vh;
+  font-family: "Spicy Rice", cursive;
+  color: white;
+  text-align: center;
+  line-height: 1.2em;
+}
+#orangetext {
+  position: absolute;
+  left: 88.6%;
+  top: 79vh;
+  font-family: "Spicy Rice", cursive;
+  color: white;
+  text-align: center;
+  line-height: 1.2em;
+}
+#pinkglitter1 {
+  position: absolute;
+  left: 84%;
+  top: 8vh;
+}
+.button-wrapper {
+  height: 50px;
+  width: 98%;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#hats {
+  position: absolute;
+  left: 1%;
+  width: 150px;
+  height: 200px;
+  top: 7vh;
+}
+#necklaces {
+  position: absolute;
+  left: 12%;
+  width: 130px;
+  height: 200px;
+  top: 0vh;
+}
+#tops {
+  position: absolute;
+  width: 270px;
+  height: 200px;
+  left: 43%;
+  top: -10vh;
+}
+#sweaters {
+  position: absolute;
+  width: 350px;
+  height: 300px;
+  left: 18%;
+  top: 43vh;
+}
+#jackets {
+  position: absolute;
+  height: 250px;
+  width: 400px;
+  left: 18%;
+  top: -10vh;
+}
+#dresses {
+  position: absolute;
+  height: 500px;
+  width: 310px;
+  left: 60%;
+  top: -15vh;
+}
+#pants {
+  position: absolute;
+  height: 500px;
+  width: 310px;
+  top: 28vh;
+  left: 41%;
+}
+#skirts {
+  position: absolute;
+  height: 250px;
+  width: 300px;
+  top: 65vh;
+  left: 63%;
+}
+#bags {
+  position: absolute;
+  height: 400px;
+  width: 200px;
+  top: 10vh;
+  left: 5%;
+}
+#shoes {
+  position: absolute;
+  height: 300px;
+  width: 270px;
+  top: 60vh;
+  left: 1%;
+}
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+.images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+img {
+  padding: 30px;
+}
+#button1 {
+  font-family: "Spicy Rice", cursive;
+  cursor: pointer;
+  display: inline-block;
+  letter-spacing: 0.075em;
+  padding: 0.8em 1em;
+  margin: auto 2em;
+  position: relative;
+  align-self: center;
+  text-transform: uppercase;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  border-image-slice: 1 1 0 0;
+  box-shadow: -0.5em, 0.5em;
+  color: white;
+}
+#button2 {
+  font-family: "Spicy Rice", cursive;
+  cursor: pointer;
+  display: inline-block;
+  letter-spacing: 0.075em;
+  padding: 0.8em 1em;
+  margin: auto 2em;
+  position: relative;
+  align-self: center;
+  text-transform: uppercase;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  border-image-slice: 1 1 0 0;
+  box-shadow: -0.5em, 0.5em;
+  color: white;
+}
+#button3 {
+  font-family: "Spicy Rice", cursive;
+  cursor: pointer;
+  display: inline-block;
+  letter-spacing: 0.075em;
+  padding: 0.8em 1em;
+  margin: auto 2em;
+  position: relative;
+  align-self: center;
+  text-transform: uppercase;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  border-image-slice: 1 1 0 0;
+  box-shadow: -0.5em, 0.5em;
+  color: white;
+}
+#button4 {
+  font-family: "Spicy Rice", cursive;
+  cursor: pointer;
+  display: inline-block;
+  letter-spacing: 0.075em;
+  padding: 0.8em 1em;
+  margin: auto 2em;
+  position: relative;
+  align-self: center;
+  text-transform: uppercase;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  border-image-slice: 1 1 0 0;
+  box-shadow: -0.5em, 0.5em;
+  color: white;
+}
+#button5 {
+  font-family: "Spicy Rice", cursive;
+  cursor: pointer;
+  display: inline-block;
+  letter-spacing: 0.075em;
+  padding: 0.8em 1em;
+  margin: auto 2em;
+  position: relative;
+  align-self: center;
+  text-transform: uppercase;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  border-image-slice: 1 1 0 0;
+  box-shadow: -0.5em, 0.5em;
+  color: white;
+}
+#button6 {
+  font-family: "Spicy Rice", cursive;
+  cursor: pointer;
+  display: inline-block;
+  letter-spacing: 0.075em;
+  padding: 0.8em 1em;
+  margin: auto 2em;
+  position: relative;
+  align-self: center;
+  text-transform: uppercase;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  border-image-slice: 1 1 0 0;
+  box-shadow: -0.5em, 0.5em;
+  color: white;
+}
+#button7 {
+  font-family: "Spicy Rice", cursive;
+  cursor: pointer;
+  display: inline-block;
+  letter-spacing: 0.075em;
+  padding: 0.8em 1em;
+  margin: auto 2em;
+  position: relative;
+  align-self: center;
+  text-transform: uppercase;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  border-image-slice: 1 1 0 0;
+  box-shadow: -0.5em, 0.5em;
+  color: white;
+}
+#button8 {
+  font-family: "Spicy Rice", cursive;
+  cursor: pointer;
+  display: inline-block;
+  letter-spacing: 0.075em;
+  padding: 0.8em 1em;
+  margin: auto 2em;
+  position: relative;
+  align-self: center;
+  text-transform: uppercase;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  border-image-slice: 1 1 0 0;
+  box-shadow: -0.5em, 0.5em;
+  color: white;
+}
+#button9 {
+  font-family: "Spicy Rice", cursive;
+  cursor: pointer;
+  display: inline-block;
+  letter-spacing: 0.075em;
+  padding: 0.8em 1em;
+  margin: auto 2em;
+  position: relative;
+  align-self: center;
+  text-transform: uppercase;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  border-image-slice: 1 1 0 0;
+  box-shadow: -0.5em, 0.5em;
+  color: white;
+}
+#button10 {
+  font-family: "Spicy Rice", cursive;
+  cursor: pointer;
+  display: inline-block;
+  letter-spacing: 0.075em;
+  padding: 0.8em 1em;
+  margin: auto 2em;
+  position: relative;
+  align-self: center;
+  text-transform: uppercase;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  border-image-slice: 1 1 0 0;
+  box-shadow: -0.5em, 0.5em;
+  color: white;
+}
+body {
+  background-color: white;
+}
