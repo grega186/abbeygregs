@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="create5.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Spicy+Rice&display=swap"
+      rel="stylesheet"
+    />
+    <title>Abbey's Closet</title>
+  </head>
+  <body>
+    <script>
+      window.onload = function() {
+        var replace = document.getElementsByTagName("body")[0];
+
+        var colors = [
+          "#E2E1FF",
+          "#EFE1FF",
+          "#F5E1FF",
+          "#FDE1FF",
+          "#FFE1FC",
+          "#FFE1F1",
+          "#FFE1E7",
+          "#E2E1FF",
+          "#E1F1FF",
+          "#E1FEFF",
+          "#E1FFF0",
+          "#E5FFE1",
+          "#F7FFE1",
+          "#FFF7E1"
+        ];
+        function select_random(x) {
+          y = x[Math.floor(Math.random() * colors.length)];
+          return y;
+        }
+        function generate() {
+          var selected_one = select_random(colors);
+          replace.style.background = selected_one;
+        }
+        generate();
+      };
+    </script>
+
+    <div id="title">Abbey's<br />Closet</div>
+    <div id="purpleflower">
+      <img src="create5/purpleflower.png" width="150px" />
+    </div>
+    <div id="redflower">
+      <img src="create5/redflower.png" width="150px" />
+    </div>
+    <div id="orangeflower">
+      <img src="create5/orangeflower.png" width="150px" />
+    </div>
+    <div id="purpletext">
+      <strong>FILTER</strong><br />by clicking <br />the buttons <br />
+      at the top
+    </div>
+    <div id="redtext">
+      <strong>ARRANGE</strong><br />by dragging <br />the clothes<br />
+      across the<br />screen
+    </div>
+    <div id="orangetext">
+      <strong>SELECT</strong><br />by scrolling <br />sideways on<br />
+      the items<br />
+    </div>
+    <div id="pinkglitter1">
+      <img src="create5/pinkglitter.gif" width="100px" />
+    </div>
+    <div id="hats">
+      <div class="scrolling-wrapper">
+        <div class="images">
+          <img src="create5/glitterhat.png" width="120px" />
+          <img src="create5/bluebuckethat.png" width="120px" />
+          <div></div>
+        </div>
+      </div>
+    </div>
+    <div id="tops">
+      <div class="scrolling-wrapper">
+        <div class="images">
+          <img src="create5/corset.png" width="200px" />
+          <img src="create5/aliceshirt.png" width="260px" />
+          <img src="create5/blackredcorset.png" width="200px" />
+          <img src="create5/bluesatinshirt.png" width="200px" />
+          <img src="create5/brownknittop.png" width="200px" />
+          <img src="create5/floralbralette.png" width="200px" />
+          <img src="create5/floraltieshirt.png" width="200px" />
+          <img src="create5/greencroppedturtleneck.png" width="200px" />
+          <img src="create5/greenjungleshirt.png" width="200px" />
+          <img src="create5/greenvelvettshirt.png" width="260px" />
+          <img src="create5/metalicstrappyshirt.png" width="200px" />
+          <img src="create5/rainbowtop.png" width="200px" />
+          <img src="create5/startieupshirt.png" width="200px" />
+          <img src="create5/tiebralette.png" width="200px" />
+          <img src="create5/whitecorset.png" width="200px" />
+          <img src="create5/yellowsatinshirt.png" width="200px" />
+        </div>
+      </div>
+    </div>
+    <div id="sweaters">
+      <div class="scrolling-wrapper">
+        <div class="images">
+          <img src="create5/pearlsweater.png" width="300px" />
+          <img src="create5/simonsweater.png" width="300px" />
+          <img src="create5/pinkturtleneck.png" width="300px" />
+          <img src="create5/sunflowers.png" width="350px" />
+          <img src="create5/bluecroppedsweater.png" width="270px" />
+          <img src="create5/cheetahsweater.png" width="280px" />
+        </div>
+      </div>
+    </div>
+    <div id="jackets">
+      <div class="scrolling-wrapper">
+        <div class="images">
+          <img src="create5/bluejacket.png" width="320px" />
+          <img src="create5/blackblazer.png" width="300px" />
+          <img src="create5/brownlevisjacket.png" width="320px" />
+          <img src="create5/camojacket.png" width="340px" />
+          <img src="create5/cheetahjacket.png" width="370px" />
+          <img src="create5/denimtrench.png" width="330px" />
+          <img src="create5/greenpolkadot.png" width="360px" />
+          <img src="create5/mintpuffer.png" width="400px" />
+          <img src="create5/redhoundstooth.png" width="370px" />
+          <img src="create5/redtribaljacket.png" width="350px" />
+          <img src="create5/rosejacket.png" width="310px" />
+        </div>
+      </div>
+    </div>
+    <div id="dresses">
+      <div class="scrolling-wrapper">
+        <div class="images">
+          <img src="create5/purpledress.png" width="300px" />
+          <img src="create5/whiteslip.png" width="210px" />
+          <img src="create5/redslip.png" width="260px" />
+          <img src="create5/bluemididress.png" width="210px" />
+          <img src="create5/blackroseslip.png" width="210px" />
+          <img src="create5/bluesatindress.png" width="210px" />
+          <img src="create5/bluevelvetdress.png" width="200px" />
+          <img src="create5/dragonflydress.png" width="230px" />
+          <img src="create5/greenvelvetdress.png" width="240px" />
+          <img src="create5/pinkclouddress.png" width="220px" />
+          <img src="create5/purplebutterflydress.png" width="240px" />
+        </div>
+      </div>
+    </div>
+    <div id="bags">
+      <div class="scrolling-wrapper">
+        <div class="images">
+          <img src="create5/beadbag.png" width="150px" />
+          <img src="create5/bluefringebag.png" width="150px" />
+          <img src="create5/greenbag.png" width="150px" />
+          <img src="create5/plaidbag.png" width="150px" />
+          <img src="create5/basketbag.png" width="150px" />
+          <img src="create5/rosesbag.png" width="150px" />
+        </div>
+      </div>
+    </div>
+    <div id="pants">
+      <div class="scrolling-wrapper">
+        <div class="images">
+          <img src="create5/plaidpants.png" width="280px" />
+          <img src="create5/redpants.png" width="250px" />
+          <img src="create5/bluelevis.png" width="280px" />
+          <img src="create5/brownpants.png" width="250px" />
+          <img src="create5/flaredjeans.png" width="310px" />
+          <img src="create5/greyjeans.png" width="250px" />
+          <img src="create5/houndstoothpants.png" width="250px" />
+        </div>
+      </div>
+    </div>
+    <div id="skirts">
+      <div class="scrolling-wrapper">
+        <div class="images">
+          <img src="create5/greenskirt.png" width="250px" />
+          <img src="create5/trippyskirt.png" width="260px" />
+          <img src="create5/rainbowcheckskirt.png" width="250px" />
+        </div>
+      </div>
+    </div>
+    <div id="shoes">
+      <div class="scrolling-wrapper">
+        <div class="images">
+          <img src="create5/iridescentboots.png" width="200px" />
+          <img src="create5/redboots.png" width="240px" />
+          <img src="create5/customvans.png" width="250px" />
+          <img src="create5/glitterdocs.png" width="250px" />
+          <img src="create5/velvetdocs.png" width="220px" />
+          <img src="create5/airforce.png" width="250px" />
+          <img src="create5/blackheelboots.png" width="250px" />
+          <img src="create5/colorblockheels.png" width="250px" />
+          <img src="create5/jordans.png" width="250px" />
+          <img src="create5/golfwang.png" width="250px" />
+          <img src="create5/buffalos.png" width="250px" />
+          <img src="create5/flowerheels.png" width="250px" />
+          <img src="create5/glitterconverse.png" width="250px" />
+          <img src="create5/plaidheels.png" width="220px" />
+        </div>
+      </div>
+    </div>
+    <div id="necklaces">
+      <div class="scrolling-wrapper">
+        <div class="images">
+          <img src="create5/silverchain.png" width="100px" />
+          <img src="create5/pearlnecklace.png" width="100px" />
+        </div>
+      </div>
+    </div>
+    <div class="button-wrapper">
+      <button id="button1">Hats</button>
+      <button id="button2">Necklaces</button>
+      <button id="button3">Tops</button>
+      <button id="button4">Sweaters</button>
+      <button id="button5">Jackets</button>
+      <button id="button6">Dresses</button>
+      <button id="button7">Bags</button>
+      <button id="button8">Pants</button>
+      <button id="button9">Skirts</button>
+      <button id="button10">Shoes</button>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="create5.js"></script>
+  </body>
+</html>
