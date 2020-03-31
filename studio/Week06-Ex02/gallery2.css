@@ -1,0 +1,12 @@
+body {
+  background-color: black;
+}
+#parent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+img {
+  padding: 20px;
+}
