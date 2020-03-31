@@ -1,0 +1,12 @@
+.center {
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
+}
+#scroll {
+  height: 100vh;
+  width: 100%;
+  overflow: scroll;
+}
