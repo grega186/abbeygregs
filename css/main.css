@@ -44,6 +44,16 @@ a {
   color: white;
   z-index: 10;
 }
+#project2 {
+  position: absolute;
+  font-family: "Courier Prime", monospace;
+  height: 500px;
+  width: 300px;
+  top: 122px;
+  left: 900px;
+  color: white;
+  z-index: 10;
+}
 #lily {
   height: 250px;
   width: 250px;
