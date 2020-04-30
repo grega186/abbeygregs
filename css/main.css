@@ -1,148 +1,89 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+p,
+pre,
+blockquote,
+figure,
+div,
+img,
+hr {
+  margin: 0;
+  padding: 0;
+}
 body {
-  background-color: black;
+  background-color: #161414;
+}
+#one {
+  position: absolute;
+  font-family: "Abril Fatface", cursive;
+  font-size: 100pt;
+  color: white;
+  left: 14%;
+  top: 36.5vh;
+  z-index: 3;
+}
+#two {
+  position: absolute;
+  font-family: "Abril Fatface", cursive;
+  font-size: 100pt;
+  color: white;
+  top: 36.5vh;
+  left: 47.7%;
+  z-index: 3;
+}
+#three {
+  position: absolute;
+  font-family: "Abril Fatface", cursive;
+  font-size: 100pt;
+  color: white;
+  z-index: 3;
+  top: 36.5vh;
+  left: 81.5%;
+}
+#name {
+  font-family: "Megrim", cursive;
+  position: absolute;
+  font-size: 155pt;
+  z-index: 2;
+  color: black;
+  left: 0.5%;
+  top: 1vh;
 }
 a {
   color: white;
+  text-decoration: none;
 }
-#name {
+#sun2 {
   position: absolute;
-  color: white;
-  width: 300px;
-  height: 300px;
-  font-family: "Megrim", cursive;
-  font-size: 100pt;
-  z-index: 7;
-  top: -70px;
-}
-#list1 {
-  position: absolute;
-  font-family: "Courier Prime", monospace;
-  font-size: 12pt;
-  height: 500px;
-  width: 300px;
-  top: 70px;
-  left: 560px;
-  color: white;
-}
-#list2 {
-  position: absolute;
-  font-family: "Courier Prime", monospace;
-  font-size: 12pt;
-  height: 500px;
-  width: 300px;
-  top: 130px;
-  left: 860px;
-  color: white;
-}
-#project1 {
-  position: absolute;
-  font-family: "Courier Prime", monospace;
-  height: 500px;
-  width: 300px;
-  top: 62px;
-  left: 900px;
-  color: white;
-  z-index: 10;
-}
-#project2 {
-  position: absolute;
-  font-family: "Courier Prime", monospace;
-  height: 500px;
-  width: 300px;
-  top: 122px;
-  left: 900px;
-  color: white;
-  z-index: 10;
-}
-#lily {
-  height: 250px;
-  width: 250px;
-  position: absolute;
-  left: 200px;
-  top: 550px;
-  z-index: 2;
-}
-#dahlia {
-  height: 250px;
-  width: 250px;
-  position: absolute;
-  left: 900px;
-  top: 450px;
-  z-index: 5;
-}
-#orchid {
-  height: 250px;
-  width: 250px;
-  position: absolute;
-  left: 100px;
-  top: 450px;
-  z-index: 6;
-}
-#pansy {
-  height: 250px;
-  width: 250px;
-  position: absolute;
-  left: 300px;
-  top: 400px;
-  z-index: 5;
-}
-#peony {
-  height: 250px;
-  width: 250px;
-  position: absolute;
-  left: 1000px;
-  top: 550px;
-  z-index: 3;
-}
-#sunflower {
-  height: 250px;
-  width: 250px;
-  position: absolute;
-  left: 1100px;
-  top: 400px;
-  z-index: 2;
-}
-#darkred {
-  height: 250px;
-  width: 250px;
-  position: absolute;
-  left: 1170px;
-  top: 550px;
   z-index: 1;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  left: 9%;
+  top: 36vh;
+  border-radius: 50%;
+  background: rgb(255, 133, 54);
+  background: radial-gradient(
+    circle,
+    rgba(255, 133, 54, 1) 0%,
+    rgba(212, 38, 38, 1) 100%
+  );
 }
-#rose {
-  height: 250px;
-  width: 250px;
+#red {
+  left: 43%;
+  top: 36vh;
   position: absolute;
-  left: 5px;
-  top: 550px;
-  z-index: 1;
 }
-#petunia {
-  height: 250px;
-  width: 250px;
+#letter {
+  left: 77%;
+  top: 36vh;
   position: absolute;
-  left: 400px;
-  top: 550px;
-  z-index: 1;
-}
-#blue {
-  height: 250px;
-  width: 250px;
-  position: absolute;
-  left: 770px;
-  top: 550px;
-  z-index: 1;
-}
-#daisy {
-  height: 250px;
-  width: 250px;
-  position: absolute;
-  left: 580px;
-  top: 550px;
-  z-index: 4;
-}
-#grass {
-  position: absolute;
-  top: 500px;
 }
