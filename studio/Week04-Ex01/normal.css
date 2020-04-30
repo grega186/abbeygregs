@@ -49,7 +49,7 @@ hr {
 #water {
   top: 89.5vh;
   width: 100%;
-  height: 38.5vh;
+  height: 42.5vh;
   background: rgb(64, 170, 184);
   background: linear-gradient(
     90deg,
@@ -141,8 +141,6 @@ p {
   line-height: 0.9;
   z-index: 5;
   padding: 5px;
-}
-span {
 }
 
 #left {
