@@ -58,6 +58,9 @@ button {
 p {
   display: none;
 }
+#ipadbackground {
+  display: none;
+}
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (orientation: portrait) {
   #laptoplogo {
     display: none;
@@ -89,6 +92,9 @@ p {
   p {
     display: none;
   }
+  #ipadbackground {
+    display: none;
+  }
 }
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: portrait) {
   #ipadtext {
@@ -113,10 +119,14 @@ p {
     display: none;
   }
   #backgroundimage {
+    display: none;
+  }
+  #ipadbackground {
+    display: block;
     position: fixed;
     width: 100%;
     height: 100%;
-    opacity: 0.1;
+    opacity: 0.3;
     z-index: 1;
   }
   button {
@@ -124,6 +134,7 @@ p {
   }
   p {
     display: block;
+    -webkit-text-stroke: 1px white;
     background: url(images/a.jpg) repeat;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
